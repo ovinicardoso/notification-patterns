@@ -5,7 +5,7 @@ REST API for multichannel notifications (Email, SMS, WhatsApp) built to demonstr
 ## 🚀 Technologies
 
 * Java 17+
-* Spring Boot 3.x
+* Spring Boot 3.2.5
 * Maven
 * Lombok
 
