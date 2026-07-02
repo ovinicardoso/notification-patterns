@@ -2,8 +2,6 @@
 
 REST API for multichannel notifications (Email, SMS, WhatsApp) built to demonstrate the application of Design Patterns in a real-world scenario.
 
-This project is part of the **Santander 2026 - AI Java Back-end** bootcamp.
-
 ## 🚀 Technologies
 
 * Java 17+
@@ -20,23 +18,17 @@ This project is part of the **Santander 2026 - AI Java Back-end** bootcamp.
 ## ⚙️ How to Run
 
 1. Clone the repository:
-
-   ```bash
+```bash
    git clone https://github.com/ovinicardoso/notification-patterns.git
-   ```
-
+```
 2. Navigate to the project directory:
-
-   ```bash
+```bash
    cd notification-patterns
-   ```
-
+```
 3. Run the application using the Maven Wrapper:
-
-   ```bash
+```bash
    ./mvnw spring-boot:run
-   ```
-
+```
    > On Windows CMD/PowerShell, use `.\mvnw.cmd spring-boot:run`
 
 The server will start locally on `http://localhost:8080`.
@@ -70,3 +62,9 @@ Invoke-RestMethod -Uri "http://localhost:8080/api/notifications" -Method Post -H
 ```cmd
 curl -X POST http://localhost:8080/api/notifications -H "Content-Type: application/json" -d "{\"recipient\": \"11999999999\", \"message\": \"Validando o canal WhatsApp\", \"channel\": \"WHATSAPP\"}"
 ```
+
+---
+
+Developed as part of the Santander 2026 - AI Java Back-end bootcamp.
+
+**Developed by Vinicius Moreira Gonçalves Cardoso**
